@@ -3,7 +3,7 @@ Docker Cheat Sheet
 Aggregation of my personal notes collected during daily work with the Docker
 
 <center>
-![](images/docker-logo-horizontal.png)
+![logo](images/docker-logo-horizontal.png)
 </center>
 
 ## Glossary
