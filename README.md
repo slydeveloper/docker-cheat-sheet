@@ -3,7 +3,7 @@ Docker Cheat Sheet
 Aggregation of my personal notes collected during daily work with the Docker
 
 <center>
-![logo](images/docker-logo-horizontal.png)
+<img src="images/docker-logo-horizontal.png"/>
 </center>
 
 ## Glossary
@@ -32,7 +32,7 @@ The docker daemon process running on the host which manages images and container
 ## Docker container vs Docker image
 
 <center>
-![](images/docker-image-containers.png)
+<img src="images/docker-image-containers.png"/>
 </center>
 
 * `Docker image`
@@ -48,7 +48,7 @@ The docker daemon process running on the host which manages images and container
 ## Docker commands:
 
 <center>
-![](images/docker-commands.png)
+<img src="images/docker-commands.png"/>
 </center>
 
 ### Docker engine commands
