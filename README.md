@@ -2,9 +2,9 @@ Docker Cheat Sheet
 ==================
 Aggregation of my personal notes collected during daily work with the Docker
 
-<center>
+<p align="center">
 <img src="images/docker-logo-horizontal.png"/>
-</center>
+</p>
 
 ## Glossary
 Based on official [Docker glossary](https://docs.docker.com/glossary/)
@@ -31,9 +31,9 @@ The docker daemon process running on the host which manages images and container
 
 ## Docker container vs Docker image
 
-<center>
+<p align="center">
 <img src="images/docker-image-containers.png"/>
-</center>
+</p>
 
 * `Docker image`
 	* base of container 
@@ -47,9 +47,9 @@ The docker daemon process running on the host which manages images and container
 
 ## Docker commands:
 
-<center>
+<p align="center">
 <img src="images/docker-commands.png"/>
-</center>
+</p>
 
 ### Docker engine commands
  * `docker version` - show the Docker version information (version of client/server, API, Go, OS/Arch type, etc)
