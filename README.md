@@ -95,6 +95,7 @@ The docker daemon process running on the host which manages images and container
 * `docker history` - show the history of an image
 * `docker tag` - create a tag `TARGET_IMAGE` that refers to `SOURCE_IMAGE`
 * `docker rmi` - remove one or more images
+* `docker image rm $(docker image ls -a -q)` - remove all images
 * `docker save` - save one or more images to a tar archive
 * `docker load` - load an image from a tar archive or STDIN
 * `docker import` - import the contents from a tarball to create a filesystem image
