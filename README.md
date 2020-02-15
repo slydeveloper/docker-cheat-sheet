@@ -793,7 +793,10 @@ The docker daemon process running on the host which manages images and container
 * `docker rm $(docker ps -aq)` - remove all stopped containers
 * `docker stop $(docker ps -q --filter ancestor=nginx)` - stop all containers based on `nginx` image 
 * `docker rmi -f $(docker images | grep "<none>" | awk "{print \$3}")` - remove all `<none>` images
-
+* `docker ps -aq` - list all containers (only IDs)
+* `docker stop $(docker ps -aq)` - stop all running containers
+* `docker rm $(docker ps -aq)` - remove all containers
+* `docker rmi $(docker images -q)` - remove all images
 
 ## Recommended tools
 * [Portainer.io](https://portainer.io) - portainer is an open-source lightweight management ui which allows you to easily manage your docker hosts or swarm clusters
