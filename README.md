@@ -797,6 +797,9 @@ The docker daemon process running on the host which manages images and container
 * `docker stop $(docker ps -aq)` - stop all running containers
 * `docker rm $(docker ps -aq)` - remove all containers
 * `docker rmi $(docker images -q)` - remove all images
+* `docker system df` - Docker disk usage
+* `docker system prune` - Docker cleanup (containers, networks, cache)
+* `docker ps --size` - amount of data used for the writable layer of each container
 
 ## Recommended tools
 * [Portainer.io](https://portainer.io) - portainer is an open-source lightweight management ui which allows you to easily manage your docker hosts or swarm clusters
